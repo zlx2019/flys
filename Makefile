@@ -1,4 +1,4 @@
 all:
-	cmake -S . -B ./target
-	make -C ./target
-	./target/bin/main
+	cmake -S . -B ./build
+	make -C ./build
+	./build/bin/flys

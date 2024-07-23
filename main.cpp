@@ -10,6 +10,5 @@
  */
 int main(){
     fmt::print("Hello {} \n", "World");
-    struct addrinfo *addrinfo;
     return 0;
 }
