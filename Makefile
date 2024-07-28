@@ -4,5 +4,8 @@ all:
 	make -C ./build
 	./build/bin/flys
 
+run:
+	./build/bin/flys
+
 clean:
 	rm -rf ./build
